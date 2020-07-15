@@ -58,6 +58,16 @@
 }
 
 @include mediaSm{
+    h1.lg-heading
+    {
+        font-size: 3rem;
+    }
+
+    .boxes div
+    {
+        font-size: 1rem;
+    }
+    
     .project{
         grid-template-columns:1fr;
     }

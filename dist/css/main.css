@@ -280,6 +280,10 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  h1.lg-heading {
+    font-size: 3rem; }
+  .boxes div {
+    font-size: 1rem; }
   .project {
     grid-template-columns: 1fr; }
   main#home h1 {
